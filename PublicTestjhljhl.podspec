@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PublicTestjhljhl"
-  spec.version      = "0.0.1"
-  spec.summary      = "今天天气很好,hhahahhah."
+  s.name         = "PublicTestjhljhl"
+  s.version      = "0.0.1"
+  s.summary      = "今天天气很好,hhahahhah."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   很不错，你就是今天的主角，飞起来吧，哈哈哈哈哈哈哈哈哈哈哈哈
                    DESC
 
-  spec.homepage     = "https://github.com/jiahonglingkaixinmeiyitian/PublicTestjhljhl"
+  s.homepage     = "https://github.com/jiahonglingkaixinmeiyitian/PublicTestjhljhl"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
+  s.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "jiahongling" => "m15116996950@163.com" }
+  s.author             = { "jiahongling" => "m15116996950@163.com" }
   # Or just: spec.author    = "jiahongling"
   # spec.authors            = { "jiahongling" => "m15116996950@163.com" }
   # spec.social_media_url   = "https://twitter.com/jiahongling"
@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-   spec.platform     = :ios, "9.0"
+   s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/jiahonglingkaixinmeiyitian/PublicTestjhljhl.git", :tag => "#{spec.version}" }
+  s.source       = { :git => "https://github.com/jiahonglingkaixinmeiyitian/PublicTestjhljhl.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "PublicTestjhl", "PublicTestjhl/**/*.{h,m}"
+  s.source_files  = "PublicTestjhl", "PublicTestjhl/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -130,7 +130,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-   spec.requires_arc = true
+   s.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
