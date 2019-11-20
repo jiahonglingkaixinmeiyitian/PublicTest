@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "waveAnalysisjs"
-  spec.version      = "2.0.1"
+  spec.version      = "2.0.2"
   spec.summary      = "相当不错"
 
   # This description is used to generate tags and improve search results.
@@ -56,7 +56,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "jiahongling" => "m15116996950@163.com" }
   # Or just: spec.author    = "jiahongling"
   # spec.authors            = { "jiahongling" => "m15116996950@163.com" }
-  # spec.social_media_url   = "https://twitter.com/jiahongling"
+   spec.social_media_url   = "https://twitter.com/jiahongling"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
