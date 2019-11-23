@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "waveAnalysisjs"
-    s.version      = "3.0.0"
+    s.version      = "4.0.0"
     s.ios.deployment_target = '7.0'
     s.summary      = "A delightful setting interface framework.kkkkkk"
     s.homepage     = "https://github.com/jiahonglingkaixinmeiyitian/waveAnalysisjs"
