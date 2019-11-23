@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.author             = { "jiahongling" => "m15116996950@163.com" }
     s.social_media_url   = "https://www.jianshu.com/u/22a6ca7d9c40"
     s.source       = { :git => "https://github.com/jiahonglingkaixinmeiyitian/waveAnalysisjs.git", :tag => s.version }
-    s.source_files  = "waveAnalysisjs/*.{h,m}"
+    s.source_files  = "waveAnalysisjs/**/*.{h,m}"
     #s.resources          = "YJSettingTableView/YJSettingTableView.bundle"
     s.requires_arc = true
 end
